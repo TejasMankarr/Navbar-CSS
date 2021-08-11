@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
 }
@@ -16,7 +17,7 @@ header{
     border-radius: 20px;
     margin: 25px;
     padding: 0 25px;
-    width: 180vh;
+    width: 190vh;
 }
 nav, ul, li, a{
     color: #CB1212;
@@ -25,6 +26,7 @@ nav, li{
     list-style: none;
     display: inline-block;
     padding-left: 25px;
+    padding-top: 2px;
 }
 a{
     text-decoration: none;
@@ -36,6 +38,7 @@ nav , a{
 a:hover{
     color: white;
     transition: 0.5s ease;
+    
 }
 button{
     background-color: #CB1212;
@@ -43,10 +46,26 @@ button{
     padding: 7px 20px;
     color: white;
     border: none;
+    
 }
+
 button:hover{
     /* color: black; */
     transition: 0.5s;
-    font-size: 22px;
+    transform: scale(1.1);
+    /* font-size: 22px; */
     background-color: #7b0707;
+}
+li:hover{
+    /* color: black; */
+    transform: scale(1.1);
+    /* font-size: 22px; */
+    transition: 0.5s;
+    
+}
+img:hover{
+
+    transition: 0.5s;
+    transform: scale(1.5);
+    
 }
